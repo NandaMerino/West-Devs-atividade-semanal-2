@@ -1,1 +1,45 @@
 @import url("shared.css");
+
+.testymonials {
+    position: absolute;
+    width: 100vw;
+    height: 796px;
+    /*left: 0px;
+    top: 1833px;*/
+    background-image: url(../imgs/background-testymonials.svg);
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+}
+
+.title h2 {
+    margin-top: 50px;
+    margin-right: 700px;
+    margin-left: 900px;
+    margin-bottom: 50px;
+    width: 505px;
+    height: 96px;
+
+    font-family: var(--font-title);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 96px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.container1 {
+    display: flex;
+    width: 50vw;
+}
+
