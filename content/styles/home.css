@@ -1,1 +1,45 @@
 @import url("shared.css");
+
+.home {
+    background-image: url("../imgs/background-testymonials.svg");
+    
+}
+
+.home h1, h2, p{
+    color: var(--primary-color);
+}
+
+.imgs-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-title);
+}
+
+.home h1 {
+    font-size: 10rem;
+    font-weight: 900;
+    
+}
+
+.home span {
+    display: block;
+    font-size: 5rem;
+    font-weight: 600;
+    margin-top: -5rem;
+}
+
+.separator-1 {
+    margin-left: 50%;
+    border-left: 50vw solid transparent;
+    border-top: 5rem solid var(--primary-color);
+}
+
+.imgs-container {
+    height: 30rem;
+}
+
+.separator-2 {
+    border-left: 100vw solid  var(--primary-color);
+    border-top: 5rem solid transparent;
+}
