@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color: #FEF4DE;
+    --primary-color: #7C4032;
+    --font-title: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+}
