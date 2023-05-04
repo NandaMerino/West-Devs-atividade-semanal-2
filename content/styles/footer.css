@@ -1,0 +1,7 @@
+@import url("shared.css");
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: var(--tertiary-color);
+}

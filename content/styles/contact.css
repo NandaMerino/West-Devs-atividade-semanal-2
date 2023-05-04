@@ -38,18 +38,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 50px;
+   
 }
-
+.contact_input {
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+    width: 374px;
+    height: 56px;
+    background: var(--secundary-color);
+    border-color: none;
+    border-style: hidden;
+    margin-bottom: 14px;
+    border-radius: 61px;
+}
 .contact_input input {
     padding: 10px;
     display: flex;
     justify-content: center;
-    margin-bottom: 14px;
-    border-radius: 61px;
-    background: var(--secundary-color);
-    border-color: none;
-    border-style: hidden;
+    background-color: transparent;
+    border: none;
+    width: 80%;
 }
 
 .contact_info {
@@ -86,6 +95,7 @@
 
 .contact_send {
     display: flex;
+    margin-right: 80px;
     justify-content: center;
     width: 168px;
     height: 56px;
@@ -104,4 +114,8 @@
     text-align: center;
     margin: auto;
   }
-  
+  .fill {
+    width: 168px;
+    height: 56px;
+    background-color: #ffffff;
+  }
