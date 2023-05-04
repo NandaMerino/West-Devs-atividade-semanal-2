@@ -1,121 +1,124 @@
 @import url("shared.css");
 
+input:focus {
+  outline: none;
+}
+
 .contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
 }
 
 .contact_title {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 64px;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #7C4032;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #7C4032;
 }
 
 .contact_block {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
-    font-family: 'TT Hoves';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    margin-bottom: 50px;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 50px;
 }
-
 
 .contact_input_block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .contact_input {
-    margin-right: 80px;
-    display: flex;
-    justify-content: center;
-    width: 374px;
-    height: 56px;
-    background: var(--secundary-color);
-    border-color: none;
-    border-style: hidden;
-    margin-bottom: 14px;
-    border-radius: 61px;
+  margin-right: 80px;
+  display: flex;
+  justify-content: center;
+  width: 374px;
+  height: 56px;
+  background: var(--secundary-color);
+  border-color: none;
+  border-style: hidden;
+  margin-bottom: 14px;
+  border-radius: 61px;
 }
+
 .contact_input input {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    background-color: transparent;
-    border: none;
-    width: 80%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  width: 80%;
 }
 
 .contact_info {
-    padding-left: 50px;
-    font-family: 'TT Hoves';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    color: #333333;
+  padding-left: 50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
 }
 
 #email {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 #cellphone {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 #location {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .contact_option {
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
 }
 
 .contact_option img {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .contact_send {
-    display: flex;
-    margin-right: 80px;
-    justify-content: center;
-    width: 168px;
-    height: 56px;
-    background-color: #ffffff;
-    border: 3px solid #7C4032;
-    border-radius: 61px;
-  }
-  
-  .contact_send h2{
-    font-family: var(--font-title);
-    font-style: normal;
-    font-weight: 900;
-    font-size: 14px;
-    line-height: 21px;
-    color: #7C4032;
-    text-align: center;
-    margin: auto;
-  }
-  .fill {
-    width: 168px;
-    height: 56px;
-    background-color: #ffffff;
-  }
+  display: flex;
+  margin-right: 80px;
+  justify-content: center;
+  width: 168px;
+  height: 56px;
+  background-color: #ffffff;
+  border: 3px solid #7C4032;
+  border-radius: 61px;
+}
+
+.contact_send h2 {
+  font-family: var(--font-title);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 21px;
+  color: #7C4032;
+  text-align: center;
+  margin: auto;
+}
+
+.fill {
+  width: 168px;
+  height: 56px;
+  background-color: #ffffff;
+}
