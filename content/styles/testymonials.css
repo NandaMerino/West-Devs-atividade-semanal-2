@@ -1,45 +1,68 @@
 @import url("shared.css");
 
 .testymonials {
-    position: absolute;
-    width: 100vw;
-    height: 796px;
-    /*left: 0px;
-    top: 1833px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    font-family: var(--font-title);
+    flex-direction: column;
     background-image: url(../imgs/background-testymonials.svg);
 }
 
-.title {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    width: 100vw;
-}
-
-.title h2 {
-    margin-top: 50px;
-    margin-right: 700px;
-    margin-left: 900px;
-    margin-bottom: 50px;
-    width: 505px;
-    height: 96px;
-
-    font-family: var(--font-title);
-    font-style: normal;
+.testymonials h2 {
+    color: var(--primary-color);
     font-weight: 900;
     font-size: 64px;
     line-height: 96px;
-    /* identical to box height */
+    margin: 50px;
+}
 
-    display: flex;
+.grid-testymonials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 50px;
+}
+
+.card-depo {
+    display: block;
     align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: var(--primary-color);
+    justify-content: space-between;
+    height: 192px;
+    width: 512px;
+    border: 1px solid var(--primary-color);
+    border-radius: 30px;
+    background-color: #FFFFFF;
 }
 
-.container1 {
+.card-depo h4 {
     display: flex;
-    width: 50vw;
+    padding: 20px 137px 10px 50px;
+    font-size: 16px;
 }
 
+.card-depo p {
+    display: flex;
+    padding: 10px 50px 20px 50px;
+    font-size: 14px;
+}
+
+.card-depo img {
+    display: flex;
+    padding: 20px 348px 20px 50px;
+}
+
+.grid-testymonials button {
+    background-color: #F3CE5E;
+    color: var(--primary-color);
+    width: 210px;
+    height: 66px;
+    border-radius: 57px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
+    border: 1px solid transparent;
+    margin: 50px;
+}
