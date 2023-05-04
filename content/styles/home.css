@@ -2,44 +2,92 @@
 
 .home {
     background-image: url("../imgs/background-testymonials.svg");
-    
 }
 
-.home h1, h2, p{
+.separator-top {
+    margin-top: -16rem;
+}
+
+.home h1, h2, span, p{
     color: var(--primary-color);
 }
 
 .imgs-container {
     display: flex;
+    height: 30rem;
     align-items: center;
     justify-content: center;
     font-family: var(--font-title);
 }
 
-.home h1 {
-    font-size: 10rem;
+.title-container {
+    display: block;
+    font-weight: 600;
+    margin-right: 5rem;
+}
+
+.title-container h1 {
+    font-size: 7rem;
     font-weight: 900;
-    
+    text-align: center;
+}
+
+.title-container span {
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.title-container p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+}
+
+.desc-container {
+    width: 38vw;
+}
+
+.subtitle-container {
+    text-align: center;
+    margin-top: -3rem;
 }
 
 .home span {
-    display: block;
-    font-size: 5rem;
-    font-weight: 600;
-    margin-top: -5rem;
+    letter-spacing: 1.4rem;
 }
 
-.separator-1 {
-    margin-left: 50%;
-    border-left: 50vw solid transparent;
-    border-top: 5rem solid var(--primary-color);
+.home-img {
+    width: 90%;
 }
 
-.imgs-container {
-    height: 30rem;
+.btn-container {
+    margin-left: 1rem;
+    margin-top: 2rem;
 }
 
-.separator-2 {
-    border-left: 100vw solid  var(--primary-color);
-    border-top: 5rem solid transparent;
+.btn-container button{
+    appearance: none;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    border: 0;
+    height: 4rem;
+    color: var(--primary-color);
+    margin-right: 2rem;
+    border-radius: 2rem;
+    width: 13rem;
+    font-family: var(--font-title);
+    font-size: 1rem;
+    font-weight: 700;
+    /* box-shadow: 0 0.1rem 0.3rem var(--secondary-color); */
+}
+
+.btn-container a{
+    appearance: none;
+    cursor: pointer;
+    color: var(--primary-color);
+    font-family: var(--font-title);
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
 }
