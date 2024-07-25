@@ -25,6 +25,12 @@ Para clonar o repositório e executar o projeto localmente, siga os seguintes pa
 
 3. Abra o arquivo index.html no seu navegador.
 
+## Estrutura
+
+- `content/`: Contém os arquivos e diretórios relacionados ao conteúdo do projeto.
+- `index.html`: Arquivo HTML principal do projeto.
+- `README.md`: Este arquivo de documentação.
+
 ## Autores
 - **Bruno** - [Bruno Vieira Nobre](https://github.com/BrunoV7)
 - **Cassio** - [Cássio Vagner dos Santos Diogo](https://github.com/Cassio-Santxs)
