@@ -6,8 +6,8 @@ Exercício prático desenvolvido para reforçar os conceitos aprendidos no 2º p
 
 ## Tecnologias Utilizadas
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 
 ## Instalação e Uso
 
