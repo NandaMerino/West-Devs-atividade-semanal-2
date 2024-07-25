@@ -40,3 +40,6 @@ Para clonar o repositório e executar o projeto localmente, siga os seguintes pa
 
 ## Status do Projeto
 Este projeto está finalizado.
+
+## GitHub Pages
+https://west-devs.github.io/West-Devs-atividade-semanal-2/
